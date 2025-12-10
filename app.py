@@ -205,7 +205,7 @@ def initialize_ai_components():
         # Initialize model
         model = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
-            google_api_key="AIzaSyDrsb8gb5PdDo1u9BPgcEzf5eIxwdy2dhk",  # Replace with your API key
+            google_api_key="",  # Replace with your API key
             convert_system_message_to_human=True,
             temperature=0.7
         )
@@ -637,4 +637,5 @@ def main():
             st.warning("Please create your profile first to get personalized recommendations.")
 
 if __name__ == "__main__":
+
     main()
