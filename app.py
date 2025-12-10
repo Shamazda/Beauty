@@ -205,7 +205,7 @@ def initialize_ai_components():
         # Initialize model
         model = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
-            google_api_key="",  # Replace with your API key
+            google_api_key="", 
             convert_system_message_to_human=True,
             temperature=0.7
         )
@@ -639,3 +639,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
